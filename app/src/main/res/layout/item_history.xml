@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_km_summa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:text="1 km = 3000 so'm"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="normal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_km"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:text="Kilometer:"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="normal"
+        app:layout_constraintLeft_toLeftOf="@id/tv_km_summa"
+        app:layout_constraintRight_toRightOf="@id/tv_km_summa"
+        app:layout_constraintTop_toBottomOf="@id/tv_km_summa"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_summa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:text="Summa:"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="normal"
+        app:layout_constraintLeft_toLeftOf="@id/tv_km"
+        app:layout_constraintRight_toRightOf="@id/tv_km"
+        app:layout_constraintTop_toBottomOf="@id/tv_km"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:text="Time:"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tv_summa"
+        app:layout_constraintRight_toRightOf="@id/tv_summa"
+        app:layout_constraintTop_toBottomOf="@id/tv_summa"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tv_time"
+        app:layout_constraintRight_toRightOf="@id/tv_time"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

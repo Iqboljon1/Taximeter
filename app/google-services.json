@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "62219170212",
+    "firebase_url": "https://taxometr-5e711-default-rtdb.firebaseio.com",
+    "project_id": "taxometr-5e711",
+    "storage_bucket": "taxometr-5e711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62219170212:android:a47db8142322d78e599131",
+        "android_client_info": {
+          "package_name": "com.iraimjanov.taxometr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62219170212-1v7l0sbqetbbro71ogc3ca1bmpfti3pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu93xcw2l1csmyWXmEUM3MpNe5Jkj2ygw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62219170212-1v7l0sbqetbbro71ogc3ca1bmpfti3pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

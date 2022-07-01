@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:text="Settings"
+            android:text="History"
             android:textColor="@color/teal_700"
             android:textSize="@dimen/_20ssp"
             android:textStyle="normal"
